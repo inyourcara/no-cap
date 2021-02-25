@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/inyourcara/no-cap.git/static/css/main.1ee868d1.chunk.css",
+    "main.js": "/inyourcara/no-cap.git/static/js/main.c50faca2.chunk.js",
+    "main.js.map": "/inyourcara/no-cap.git/static/js/main.c50faca2.chunk.js.map",
+    "runtime-main.js": "/inyourcara/no-cap.git/static/js/runtime-main.4a91f38d.js",
+    "runtime-main.js.map": "/inyourcara/no-cap.git/static/js/runtime-main.4a91f38d.js.map",
+    "static/js/2.0f9c8314.chunk.js": "/inyourcara/no-cap.git/static/js/2.0f9c8314.chunk.js",
+    "static/js/2.0f9c8314.chunk.js.map": "/inyourcara/no-cap.git/static/js/2.0f9c8314.chunk.js.map",
+    "static/js/3.ecfd6553.chunk.js": "/inyourcara/no-cap.git/static/js/3.ecfd6553.chunk.js",
+    "static/js/3.ecfd6553.chunk.js.map": "/inyourcara/no-cap.git/static/js/3.ecfd6553.chunk.js.map",
+    "index.html": "/inyourcara/no-cap.git/index.html",
+    "static/css/main.1ee868d1.chunk.css.map": "/inyourcara/no-cap.git/static/css/main.1ee868d1.chunk.css.map",
+    "static/js/2.0f9c8314.chunk.js.LICENSE.txt": "/inyourcara/no-cap.git/static/js/2.0f9c8314.chunk.js.LICENSE.txt",
+    "static/media/me.f7835a64.jpg": "/inyourcara/no-cap.git/static/media/me.f7835a64.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a91f38d.js",
+    "static/js/2.0f9c8314.chunk.js",
+    "static/css/main.1ee868d1.chunk.css",
+    "static/js/main.c50faca2.chunk.js"
+  ]
+}
