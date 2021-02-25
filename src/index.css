@@ -5,7 +5,7 @@
 }
 
 .wrapper{
-  background-color:#e4e4cc;
+  background-color:#e2dede;
 padding: 1px;
   margin:1rem;
 }
@@ -15,7 +15,7 @@ h1,h2,dl{
 }
 h1{
   font-size:2.236rem;
-  color:#abc;
+  color:rgb(32, 53, 73);
   text-transform:uppercase;
   text-align: center;
 }
@@ -46,7 +46,7 @@ dd{
 body {
   font: normal 16px/1.5 'Roboto', sans-serif;
   padding: 130px 0 0 0;
-  background: #f1f1f1;
+
 }
 
 
@@ -243,9 +243,7 @@ body {
   }
 }
 
-html {
-  color: white;
-}
+
 
 * {
   transition: all .125s ease-in-out;
@@ -297,7 +295,6 @@ html {
 */
 
 
-body { background: #E9E5E2;margin:2%; }
 
 
 #SkillBox {
@@ -1121,7 +1118,7 @@ img:hover {
   font-size: 22px;
   font-weight: 700;
   text-decoration: underline;
-  margin-bottom: 5%;
+  margin-bottom: 0;
   z-index: 100;
 }
 
@@ -1230,78 +1227,17 @@ img:hover {
   box-sizing: border-box;
 }
 html {
-  height: 100%;  
+  height: 100%;
+  background-color: #000000;  
 }
 
-body {
-  min-height: 100%;  
-  background: #eee;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  color: #222;
-  font-size: 14px;
-  line-height: 26px;
-  padding-bottom: 50px;
-}
-
-.container {
-  max-width: 700px;   
-  background: #fff;
-  margin: 0px auto 0px; 
-  box-shadow: 1px 1px 2px #DAD7D7;
-  border-radius: 3px;  
-  padding: 40px;
-  margin-top: 50px;
-}
-
-.header {
-  margin-bottom: 30px;
-  
-  .full-name {
-    font-size: 40px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-  }
-  
-  .first-name {
-    font-weight: 700;
-  }
-  
-  .last-name {
-    font-weight: 300;
-  }
-  
-  .contact-info {
-    margin-bottom: 20px;
-  }
-  
-  .email ,
-  .phone {
-    color: #999;
-    font-weight: 300;
-  } 
-  
-  .separator {
-    height: 10px;
-    display: inline-block;
-    border-left: 2px solid #999;
-    margin: 0px 10px;
-  }
-  
-  .position {
-    font-weight: bold;
-    display: inline-block;
-    margin-right: 10px;
-    text-decoration: underline;
-  }
-}
 
 
 .details {
   line-height: 20px;
   
   .section {
-    margin-bottom: 40px;  
+    margin-bottom: 4px;  
   }
   
   .section:last-of-type {
@@ -1312,12 +1248,12 @@ body {
     letter-spacing: 2px;
     color: #686d70;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     text-transform: uppercase;
   }
   
   .section__list-item {
-    margin-bottom: 40px;
+    margin-bottom: 4px;
   }
   
   .section__list-item:last-of-type {
@@ -1359,7 +1295,7 @@ body {
   }
     
   .skills__item {
-    margin-bottom: 10px;  
+    margin-bottom: 1px;  
   }
   
   .skills__item .right {
@@ -1408,10 +1344,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-  font-size: 14px;
-  line-height: 22px;
-}
 
 .bold {
   font-weight: 700;

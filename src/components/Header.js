@@ -9,7 +9,7 @@ import { positions } from '@material-ui/system';
 
 const useStyles = makeStyles({
     root : {
-        backgroundColor: '#fff'
+        backgroundColor: '#FFF'
     }   
 })
 

@@ -20,7 +20,7 @@ function BottomNav() {
   <div class="footer-left">
 
 
-    <p>Company Name &copy; 2015</p>
+    <p>FERNANDO &copy; 2021</p>
   </div>
 
 </footer>

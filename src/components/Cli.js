@@ -5,7 +5,7 @@ import '../index.css';
 function Cli() {
     return (
         <div>
-            <div className="wrapper">
+            <div className="wrapper" >
   <h1>Tutorials</h1>
   <div className="box">
     <dl>

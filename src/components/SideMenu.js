@@ -63,13 +63,13 @@ const useStyles = makeStyles((theme) => ({
   
   root: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: theme.palette.error.contrastText,
     display: 'inlineFlex',
-
-    height:'100vh',
-    marginTop: '.6rem',
-    marginLeft:'0'
-    
+    overflow: 'hidden',
+    height:'100%',
+    marginTop: '-10%',
+    marginLeft:'0',
+    color:'black'
   
   },
   tabs: {
@@ -102,12 +102,12 @@ export default function VerticalTabs() {
         
       >
         
-        <Tab label="Home"  icon={<HomeIcon />} {...a11yProps(0)} />
-        <Tab label="Skills"  icon={<BookmarkIcon />}  {...a11yProps(1)} />
-        <Tab label="Tutorials"  icon={<BuildIcon />}  {...a11yProps(2)} />
-        <Tab label="Apps"  icon={<AppsIcon />}  {...a11yProps(3)} />
-        <Tab label="Services"  icon={<WorkOutlineIcon />}  {...a11yProps(4)} />
-        <Tab label="Contact"  icon={<ContactsIcon />}  {...a11yProps(5)} />
+        <Tab label="Home"  icon={<i class="fas fa-home"></i>} {...a11yProps(0)} />
+        <Tab label="Skills"  icon={<i class="fas fa-toilet-paper"></i>}  {...a11yProps(1)} />
+        <Tab label="Tutorials"  icon={<i class="fas fa-pencil-ruler"></i>}  {...a11yProps(2)} />
+        <Tab label="Apps"  icon={<i class="fas fa-shapes"></i>}  {...a11yProps(3)} />
+        <Tab label="Services"  icon={<i class="fas fa-hands-helping"></i>}  {...a11yProps(4)} />
+        <Tab label="Contact"  icon={<i class="fas fa-id-card-alt"></i>}  {...a11yProps(5)} />
       </Tabs>
       <TabPanel value={value} index={0}>
 <LandingTop />
