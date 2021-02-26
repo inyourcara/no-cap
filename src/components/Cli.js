@@ -6,19 +6,25 @@ function Cli() {
     return (
         <div>
             <div className="wrapper" >
-  <h1>Tutorials</h1>
-  <div className="box">
-    <dl>
-      <dd><a href="https://www.youtube.com/watch?v=CDY1fRZycGk&list=PLyuRouwmQCjkLnfGRHMosenaxPq9PqH0n" target="_blank">Cordova Video Playlist on YouTube</a> (More videos added regularily)</dd>
-    </dl>
-  </div>
+  <h1 >Tutorials</h1>
+
   <div className="box" id="npm">
-    <h2>npm commands</h2>
+    <h2>npx create react.js app</h2>
     <dl>
-      <dt><code>&gt; npm install -g cordova</code></dt>
-      <dd>Uses node to install the cordova program on your computer globally.</dd>
-      <dt><code>&gt; npm i -g cordova</code></dt>
-      <dd>Alternate syntax for global install.</dd>
+      <dt><code>&gt; npx create react-app my-app</code></dt>
+      <dd>Creates react.js app</dd>
+      <dt><code>&gt; cd my app</code></dt>
+      <dd>Change directories - my app</dd>
+      <dt><code>&gt; npm init -y</code></dt>
+      <dd>Generate it without having it ask any questions</dd>
+      <dt><code>&gt; npm install --save-dev webpack</code></dt>
+      <dd>Install webpack and babel</dd>
+
+      <dt><code>&gt; npm install -D babel-loader @babel/core @babel/preset-env webpack</code></dt>
+
+    
+
+
     </dl>
   </div>
   <div className="box" id="cordova">

@@ -5,11 +5,14 @@ import MessageIcon from '@material-ui/icons/Message';
 import EventNoteIcon from '@material-ui/icons/EventNote';
 import WebAssetIcon from '@material-ui/icons/WebAsset';
 import Slide from '../components/Slide';
+
 import { positions } from '@material-ui/system';
+
 
 const useStyles = makeStyles({
     root : {
-        backgroundColor: '#FFF'
+        color: 'white',
+        height:'70px'
     }   
 })
 
@@ -25,20 +28,25 @@ export default function Header() {
                             </Grid>
                             <Grid item ></Grid>
                             <Grid item>
-                                <IconButton>
-                                    <Badge badgeContent={4} color="secondary">
-                                        <NotificationsIcon />
+                                <IconButton href="LandingTop">
+                                    <Badge >
+                                    <i class="fas fa-home" ></i>                                  </Badge>
+                                </IconButton>
+                                <IconButton href="SkillsBox">
+                                    <Badge>
+                                    <i class="fas fa-toilet-paper" ></i>
                                     </Badge>
                                 </IconButton>
                                 <IconButton>
-                                    <Badge badgeContent={3} color="secondary">
-                                        <MessageIcon/>
-                                    </Badge>
+                                    <Badge>
+                                    <i class="fas fa-hands-helping"></i>                                    </Badge>
                                 </IconButton>
                                 <IconButton>
-                                    <Badge badgeContent={2} color="secondary">
-                                        <EventNoteIcon/>
-                                    </Badge>
+                                    <Badge>
+                                    <IconButton>
+                                    <Badge >
+<i class="fas fa-shapes"></i>                                    </Badge>
+                                </IconButton>                                    </Badge>
                                 </IconButton>
                             </Grid>
                         </Grid>

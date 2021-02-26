@@ -10,7 +10,6 @@ const useStyles = makeStyles({
   appMain: {
    
     width: '100%',
-    backgroundColor:'#0000'
   }
 })
 
@@ -20,7 +19,7 @@ function App() {
     <>
    <div className={classes.appMain}>
        
-     <Header />
+     <Header  />
          
 
      <SideMenu />

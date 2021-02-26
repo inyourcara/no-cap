@@ -4,8 +4,7 @@ function SkillsBox() {
     return (
         <div>
             <div id="SkillBox">
-  <center><p>My Skills</p></center>
-  <img src="http://lh3.googleusercontent.com/-rN3S3y7f5X4/AAAAAAAAAAI/AAAAAAAAAPM/OHZIrmzgYRQ/s512-c/photo.jpg" alt="Skill - Blogokay" />
+  <center className="kill"><h1>My Skills</h1></center>
   <div className="SkillBar">
     <div id="Skill-HTML">
       <span className="Skill-Area ">HTML</span>
@@ -30,24 +29,9 @@ function SkillsBox() {
       <span className="PercentText ">65%</span>
     </div>
   </div>
-  <div className="SkillBar">
-    <div id="Skill-XML">
-      <span className="Skill-Area ">XML </span>
-      <span className="PercentText ">40%</span>
-    </div>
-  </div>
-  <div className="SkillBar">
-    <div id="Skill-C">
-      <span className="Skill-Area ">C</span>
-      <span className="PercentText ">30%</span>
-    </div>
-  </div>
-  <div className="SkillBar">
-    <div id="Skill-JAVA">
-      <span className="Skill-Area ">JAVA </span>
-      <span className="PercentText ">25%</span>
-    </div>
-  </div> 
+
+
+
   <div className="SkillBar">
     <div id="Skill-PHP">
       <span className="Skill-Area ">PHP </span>

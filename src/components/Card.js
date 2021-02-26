@@ -9,7 +9,7 @@ function Card() {
   <div className="resume_right">
     <div className="resume_item resume_about">
       <div className="title">
-        <p className="bold">About us</p>
+        <p className="bold">About me</p>
       </div>
       <p>Self-motivated humbly looking forward a role in the tech industry finding solutions and design problems.</p>
     </div>

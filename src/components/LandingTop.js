@@ -12,16 +12,18 @@ import me from '../components/me.jpg';
 const useStyles = makeStyles({
   root: {
     maxWidth: '100%',
-    borderRadius: 3,
+    borderRadius: 9,
     border: 0,
     color: 'white',
-    height: 508,
+    height: 608,
     padding: '0 10px',
-    marginTop:'0',
+    marginTop:'10rem',
     marginBottom:'1px',
-    marginLeft:'-2px'
+    marginLeft:'-2px',
+    backgroundColor: '#373b44',
+    color:'rgb(122, 124, 126)',
     
-    
+   
   },
 });
 
@@ -34,18 +36,18 @@ export default function ImgMediaCard() {
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
-          height="300"
-          image={me}
+          height="50%"
+          width="50%"
+          image={'https://cdn.shopify.com/s/files/1/1258/3447/products/BlankPoster_2000x2000_013WoobieDetails_1024x1024@2x.jpg?v=1603287592' }
           title="Contemplative Reptile"
-          borderRadius="50%"
+          borderRadius="{50}%"
           
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="h5" component="h6">
             
-            Welcome 
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textprimary" component="p">
           Self-motivated humbly looking forward a role in the tech industry finding solutions and design problems.
 
 

@@ -19,6 +19,9 @@ import Cli from './Cli';
 import { layoutGenerator } from 'react-break';
 import withWidth, { isWidthUp } from '@material-ui/core/withWidth';
 import Projects from './Projects';
+
+
+
 import Services from './Services';
 import Skills from './Skills';
 import Contact from './Contact';
@@ -63,19 +66,21 @@ const useStyles = makeStyles((theme) => ({
   
   root: {
     flexGrow: 1,
-    backgroundColor: theme.palette.error.contrastText,
     display: 'inlineFlex',
     overflow: 'hidden',
     height:'100%',
     marginTop: '-10%',
     marginLeft:'0',
-    color:'black'
+    color:'white'
   
   },
   tabs: {
     
     borderRight: `1px solid ${theme.palette.divider}`,
- 
+ overflowY: true,
+
+ variant:'scrollable',
+ zIndex:'1'
   },
 }));
 
@@ -90,42 +95,26 @@ export default function VerticalTabs() {
 
   return (
     <div className={classes.root}>
-      <Tabs
-        orientation="horizontal"
-        
-        variant="scrollable"
-        value={value}
-        onChange={handleChange}
-        aria-label="Vertical tabs example"
-        className={classes.tabs}
-        
-        
-      >
-        
-        <Tab label="Home"  icon={<i class="fas fa-home"></i>} {...a11yProps(0)} />
-        <Tab label="Skills"  icon={<i class="fas fa-toilet-paper"></i>}  {...a11yProps(1)} />
-        <Tab label="Tutorials"  icon={<i class="fas fa-pencil-ruler"></i>}  {...a11yProps(2)} />
-        <Tab label="Apps"  icon={<i class="fas fa-shapes"></i>}  {...a11yProps(3)} />
-        <Tab label="Services"  icon={<i class="fas fa-hands-helping"></i>}  {...a11yProps(4)} />
-        <Tab label="Contact"  icon={<i class="fas fa-id-card-alt"></i>}  {...a11yProps(5)} />
-      </Tabs>
+
       <TabPanel value={value} index={0}>
 <LandingTop />
+<Skills />
+<Cli />
+<Projects />
+<Services />
+<Contact />     
+
       </TabPanel>
       <TabPanel value={value} index={1}>
-<Skills />
+
       </TabPanel>
       <TabPanel value={value} index={2}>
-      <Cli />
       </TabPanel>
       <TabPanel value={value} index={3}>
-      <Projects />
       </TabPanel>
       <TabPanel value={value} index={4}>
-        <Services />
       </TabPanel>
       <TabPanel value={value} index={5}>
-<Contact />     
  </TabPanel>
    
     </div>
